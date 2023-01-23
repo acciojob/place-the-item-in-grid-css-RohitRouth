@@ -1,2 +1,13 @@
-
-/* Your CSS Code here. */
+.Container{
+	background-color: red;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	row-gap:12px;
+	column-gap: 12px;
+}
+.item{
+	background-color: aqua;
+	width:200px;
+	height:200px;
+}
